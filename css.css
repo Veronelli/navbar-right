@@ -107,7 +107,7 @@ body{
         animation-iteration-count: 1;
         animation-fill-mode: forwards;
         transition: clip-path .5s;
-        clip-path: polygon(0 0, 15% 0, 24% 100%, 0 100%);
+        clip-path: polygon(0 0, 100px 0, 200px 100%, 0 100%);
     }
 @keyframes swipe-on{
     100%{

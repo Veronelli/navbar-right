@@ -5,10 +5,8 @@ var i = 0+1
         if(i%2==0){
             animation.classList.remove('menu-on')
             animation.classList.add('menu-off')
-            console.log("No")
         }
         else{
-            console.log("Sí")
             animation.classList.add('menu-on')
             animation.classList.remove('menu-off')
         }
